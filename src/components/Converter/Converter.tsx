@@ -19,8 +19,6 @@ const invertSelection = () => {
   setFrom(to)
 }
 
-//@TODO crear el readme
-
   return (
     <Card elevation={3} style={styles.card} className="card">
       <Container id="converter-container">
