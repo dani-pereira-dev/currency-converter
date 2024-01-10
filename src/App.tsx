@@ -1,13 +1,13 @@
-import './App.css'
-import { BackGround, Converter, Header } from './components'
+import './App.css';
+import { BackGround, Converter, Header } from './components';
 
-const App = () => ( 
+const App = () => (
   <>
-    <Header/>
+    <Header />
     <BackGround>
       <Converter />
     </BackGround>
   </>
-)
+);
 
-export default App
+export default App;

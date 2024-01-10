@@ -14,6 +14,6 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
-    "react-hooks/rules-of-hooks": false,
+    'react-hooks/rules-of-hooks': false,
   },
-}
+};

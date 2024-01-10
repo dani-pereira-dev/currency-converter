@@ -6,10 +6,10 @@ Asegúrate de tener instalado **Node.js 18 o superior** en tu máquina antes de 
 
 1. **Clonar el Repositorio:**
 
-   ```bash
-   git clone https://github.com/dani-pereira-dev/currency-converter.git
-   cd currency-converter
-   ```
+```bash
+git clone https://github.com/dani-pereira-dev/currency-converter.git
+cd currency-converter
+```
 
 2. **Instalar Dependencias:**
 

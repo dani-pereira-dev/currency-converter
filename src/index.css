@@ -8,10 +8,10 @@
   line-height: 1;
   font-weight: var(--font-weight-semi-bold);
   box-sizing: border-box;
- 
-  --color-header:#0E1342;
-  --color-background:#1A8DFF;
-  --color-warning-box:#E8F3FF; /* fijarme si uso este o el defualt del componente */
+
+  --color-header: #0e1342;
+  --color-background: #1a8dff;
+  --color-warning-box: #e8f3ff; 
   --color-unit-result: #757575;
   --color-text-warning-box: #000000;
 
@@ -24,5 +24,4 @@
   --font-weight-light: 300;
   --font-weight-normal: 400;
   --font-weight-semi-bold: 600;
-
 }

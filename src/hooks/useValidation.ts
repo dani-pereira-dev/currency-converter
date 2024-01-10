@@ -1,17 +1,16 @@
-import { useEffect, useState } from 'react'
-import { amountValidation } from '../utils'
+import { useEffect, useState } from 'react';
+import { amountValidation } from '../utils';
 
 export const useValidation = (amount: string) => {
-    const [error, setError] = useState<boolean>(false)
+  const [error, setError] = useState<boolean>(false);
 
-    useEffect(() => {
-        setError(false)
+  useEffect(() => {
+    setError(false);
 
-        if (!amountValidation(amount)) {
-            setError(true)
-        }
+    if (!amountValidation(amount)) {
+      setError(true);
+    }
+  }, [amount]);
 
-    }, [amount])
-
-    return { error }
-}
+  return { error };
+};

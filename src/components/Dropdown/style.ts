@@ -1,3 +1,3 @@
 export const styles = {
-    container: { paddingBottom: 20 }
-}
+  container: { paddingBottom: 20 },
+};
